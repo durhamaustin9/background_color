@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--    <img alt="Vue logo" src="./assets/logo.png">-->
+    <choice-field>  </choice-field>
+    <color-field/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import ChoiceField from "@/components/choiceField";
+import ColorField from "@/components/HelloWorld";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+      ChoiceField,
+      ColorField
   }
 }
 </script>
