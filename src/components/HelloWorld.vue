@@ -2,7 +2,7 @@
   <div class="colorField">
 
 
-  <h1>test</h1>
+  <div class="container-fluid" id="colorBox"> </div>
 
 
 
@@ -47,18 +47,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  #colorBox {
+    background-color: green;
+    margin-top: 20px;
+    height: 100%;
+  }
+
+  @media (max-width: 576px) {
+    #colorBox {
+
+    }
+  }
+
 </style>
