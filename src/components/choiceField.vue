@@ -1,5 +1,7 @@
 <template>
     <div class="choice" id="box">
+      <i class="fas fa-sliders-h" id="settings">  </i>
+
         <h1>Choose a Color</h1>
 
         <button class="btn btn-success" id="gButton" v-on:click="gButton">Green</button>
@@ -45,5 +47,11 @@
   .choice {
     min-width: 360px;
     height: 20%;
+  }
+
+  #settings {
+    font-size: 2rem;
+    position: absolute;
+    right: 5%;
   }
 </style>
